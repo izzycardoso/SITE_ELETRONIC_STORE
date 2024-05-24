@@ -20,8 +20,8 @@ header {
 
 .cabecalho-lista-2 {
     color:#FFFFFF;
-    margin-left: 260px;
-    padding: 40px;
+    margin-left: 260px; /* alinhamento à esquerda */ 
+    padding: 40px; /* espaçamento vertical */ 
     display: inline-block;
     justify-content: center;
 }
@@ -39,57 +39,64 @@ body {
 }
 
 .paragrafo-1 {
-    margin-left: 20px;
+    text-align: center;
     justify-content: center;
 }
 
 .titulo-3. {
-    color:#00000;
+    color: black;
     justify-content: center;
-    padding: 40px;
+    display: flex;
 }
 
 .ṕaragrafo-2 {
-    margin-left: 20px;
+    text-align: center;
     justify-content: center;
 }
 
 .arduino {
-    width: 40%;
-    margin-left: 30px;
-    margin-right: 50px;
+    width: 25%;
+    margin-left: inline;
+    padding: 30px;
 }
 
 .protobord {
-    width: 40%;
-    margin-right: 50px;
+    width: 25%;
+    display: inline;
+    padding: 120px;
 }
 
 .multimetro {
-    width: 40%;
+    width: 25%;
     margin-right: 30px;
 }
 
 .capacitor {
-    width: 40%;
-    padding: 45px;
-    margin-left: 30px;
-    margin-right: 50px;
+    width: 15%;
+    display: inline;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
 }
 
 .sensor-LDR {
-    width: 40%;
+    width: 20%;
+    display: inline;
+    padding: 20px;
     margin-right: 50px;
 }
 
 .LED {
     width: 40%;
-    margin-right: 50px;
+    display: inline;
+    padding: 20px;
+    margin-left: 50px;
 }
 
 footer {
     background-color: #000000;
-    color:#FFFFFF
+    color:#FFFFFF;
+    text-align: center;
 }
 
 p {
@@ -103,4 +110,12 @@ p {
   margin-left: 25px;
   margin-right: 50px;
   text-align: center;  
+}
+
+.preco-2 {
+    width: 25%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 50px;
+    text-align: center;
 }
