@@ -38,11 +38,6 @@ body {
     display: flex;
 }
 
-.paragrafo-1 {
-    text-align: center;
-    justify-content: center;
-}
-
 .titulo-3. {
     color: black;
     justify-content: center;
@@ -93,13 +88,13 @@ body {
     margin-left: 50px;
 }
 
-footer {
+.footer {
     background-color: #000000;
     color:#FFFFFF;
     text-align: center;
 }
 
-p {
+.p {
     justify-content: center;
     padding: 20px;
 }
